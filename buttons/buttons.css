@@ -1,0 +1,83 @@
+* {
+  background-color: #b9d2b1;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+button {
+  font-size: 20px;
+  margin: 4px;
+  padding: 4px;
+  background-color: #4b6858;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #243010;
+}
+#top-left {
+  top: 0;
+  left: 0;
+}
+#top-middle {
+  top: 0;
+  left: 45%;
+  right: 45%;
+}
+#top-right {
+  top: 0;
+  right: 0;
+}
+#middle-left {
+  top: 47%;
+  /* bottom: 47%; */
+  left: 0;
+}
+#middle-middle {
+  top: 46%;
+  bottom: 46%;
+  left: 45%;
+  right: 45%;
+}
+#middle-right {
+  top: 47%;
+  right: 0;
+}
+#bottom-left {
+  bottom: 0;
+  left: 0;
+}
+#bottom-middle {
+  bottom: 0;
+  left: 45%;
+  right: 45%;
+}
+#bottom-right {
+  bottom: 0;
+  right: 0;
+}
+#up {
+  top: 40%;
+  left: 47%;
+  right: 47%;
+}
+#down {
+  bottom: 40%;
+  left: 45%;
+  right: 45%;
+}
+#left-side {
+  top: 47%;
+  bottom: 47%;
+  right: 56%;
+}
+#right-side {
+  top: 47%;
+  bottom: 47%;
+  left: 56%;
+}
